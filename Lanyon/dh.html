@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>Digital Projects</title>
+
+    <link rel="stylesheet" href="poole.css">
+    <link rel="stylesheet" href="syntax.css">
+    <link rel="stylesheet" href="lanyon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Piazzolla&display=swap">
+    <link rel="stylesheet" href="c-style.css">
+    
+    <meta name="description" content="Connor S. Kenaston is a historian of American culture and politics who specializes in religion and the mass media. He is also interested in engaged pedagogy and public and digital history.">
+
+  </head>
+  <body>
+      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+      <div class="sidebar" id="sidebar">
+          <div class="sidebar-item">
+            <p>Historian of religion, politics, and culture in the United States</p>
+          </div>
+          <nav class="sidebar-nav">
+              <a class="sidebar-nav-item" href="index.html">Home</a>   
+              <a class="sidebar-nav-item" href="about.html">About</a>
+              <a class="sidebar-nav-item" href="projects.html">Projects</a>
+              <a class="sidebar-nav-item" href="teaching.html">Teaching</a>
+              <a class="sidebar-nav-item" href="cv.html">CV</a>
+          </nav>
+          <div class="sidebar-item">
+              Work by Connor Kenaston is <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">CC-BY</a>.
+          </div>
+        </div>
+  <div class="content">
+</div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+         <div class="wrap">
+                <div class="masthead">
+                  <div class="container">
+                    <h3 class="masthead-title">
+                      <a href="/" title="Home">Connor S. Kenaston</a>
+                      <small></small>
+                    </h3>
+                  </div>
+                </div>                
+                
+                <div class="container content">
+                    <div class="page">
+              <h1 class="page-title">Writing & Projects</h1>
+              <p>This page highlights several of the digital and public history projects that I have worked on.</p>
+             <h3>Dissertation</h3>
+             <p>BLAH BLAH BLAH BLAH</p>
+              <h3>Digital Projects</h3>
+              <h3><i>Land and Legacy</i></h3>
+              <p> This project investigates the land development and expansion of the University of Virginia 
+                (UVA) and University of Virginia Foundation (UVAF) throughout Charlottesville and  Albemarle County since the 1980s. 
+                The project focuses on how these changes have affected local  communities, reshaped city and county topography, and contributed to local inequities.
+                 <i>Land and Legacy</i> was created by the 2019-2020 Praxis fellows: Janet S. Dunkelbarger, Natasha Roth-Rowland, Lauren Van Nest, Chloe Downe Wells, and me.
+                  Based at the Scholars’ Lab at the UVA Library, Praxis fellows receive training in digital methods and tools as well as the task to create a digital humanities project. 
+                In addition to the guidance and assistance provided by the Scholars’ Lab  staff, we also consulted with library staff, researchers working on the 
+                Charlottesville Equity Atlas, and other members of the UVA and Charlottesville community. </p>
+                <p>I played several roles on the project. Our team adopted a rotating project manager model. My time as the project manager coincided with the closing of UVA due to 
+                  the coronavirus pandemic. As the project manager, I helped the team reassess our priorities and goals in light of our new circumstances, as well as create a detailed
+                  project plan to help us achieve our goals. In my work as a project manager, I tried to <a href="https://scholarslab.lib.virginia.edu/blog/praxis-in-a-pandemic/">always lead with care</a>.  
+                  I also served as one of the team's two primary web developers. We chose to build our own website with the layout, image resolution, and overall appearance tested for maximum accessibility, in order to encourage 
+                  and facilitate public engagement, as well as to create additional space for acknowledging the people and projects that contributed to its own work. Building a website 
+                  also allowed for easy access to the team’s data that informed our three ArcGIS StoryMaps as well as to our policy recommendations and avenues for future research. Finally, I also collaborated
+                  to research, write, and edit our StoryMaps.</p>
+              <h3><i>Essays in History</i></h3>
+              <P>BLAH BLAH BLAH</P>
+              <h3>President's Commission on the University in the Age of Segregation</h3>
+              <P>BLAH BLAH BLAH</P>
+                
+                <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+                <script>
+                  (function(document) {
+                    var toggle = document.querySelector('.sidebar-toggle');
+                    var sidebar = document.querySelector('#sidebar');
+                    var checkbox = document.querySelector('#sidebar-checkbox');
+            
+                    document.addEventListener('click', function(e) {
+                      var target = e.target;
+            
+                      if(!checkbox.checked ||
+                         sidebar.contains(target) ||
+                         (target === checkbox || target === toggle)) return;
+            
+                      checkbox.checked = false;
+                    }, false);
+                  })(document);
+                </script>
+  </body>
+</html>
+
+

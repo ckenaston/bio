@@ -1,0 +1,102 @@
+
+
+@media screen {
+    /* making font bigger and text color fit uva brand */
+          html {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5rem;
+            color: #666666; }
+        
+        /* links */
+    a {
+        color: #843b62;}
+
+    a:hover {    
+        text-decoration: underline}
+
+h1, h2, h3, h4 {
+    font-family: 'Piazzolla', serif;
+}
+
+/* bigger font-size for headers */
+h1 {
+    font-size: 1.75rem;
+    line-height: 1.75rem;}
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 1.5rem; }
+
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.3rem; 
+    margin-top: 16px;}
+
+    h4 {
+      font-size: 1.15rem;
+      line-height: 1.15rem;  }
+      
+    .cv-list li {
+      list-style-type: none;
+      margin-bottom: 1rem;
+      margin-top: -.5rem;
+      }
+      
+.sidebar {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  width: 18rem;
+}
+
+.masthead-title {
+  font-size: 1.75rem;
+}
+
+.masthead {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+
+}
+
+.sidebar-toggle {
+  padding: 1rem;
+}
+
+.sidebar-toggle:before {
+  width: 1.3rem;
+  height: 1rem;
+}
+
+#home h1 {
+  display:none;
+}
+}
+
+@media (max-width: 48em) {
+  .masthead-title {
+    font-size: 1.2rem;}
+  
+  .masthead {
+    padding-top: 1rem;
+  padding-bottom: 1rem;
+  }  
+  
+  .sidebar-toggle {
+    left: 1rem;
+    padding: .1rem;
+  }
+  
+  .sidebar-toggle:before {
+    margin-top: .35rem;
+    width: 1rem;
+    height: .8rem;}
+
+  .sidebar {
+    width: 14rem;
+  }
+
+
+}

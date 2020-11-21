@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <title>Teaching</title>
+
+    <link rel="stylesheet" href="poole.css">
+    <link rel="stylesheet" href="syntax.css">
+    <link rel="stylesheet" href="lanyon.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Piazzolla&display=swap">
+    <link rel="stylesheet" href="c-style.css">
+    
+    <meta name="description" content="Connor S. Kenaston is a historian of American culture and politics who specializes in religion and the mass media. He is also interested in engaged pedagogy and public and digital history.">
+
+  </head>
+  <body>
+      <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+      <div class="sidebar" id="sidebar">
+          <div class="sidebar-item">
+            <p>Historian of religion, politics, and culture in the United States</p>
+          </div>
+          <nav class="sidebar-nav">
+                <a class="sidebar-nav-item" href="index.html">Home</a>   
+                <a class="sidebar-nav-item" href="about.html">About</a>
+                <a class="sidebar-nav-item" href="projects.html">Projects</a>
+                <a class="sidebar-nav-item" href="teaching.html">Teaching</a>
+                <a class="sidebar-nav-item" href="cv.html">CV</a>
+          </nav>
+          <div class="sidebar-item">
+              Work by Connor Kenaston is <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">CC-BY</a>.
+          </div>
+        </div>
+  <div class="content">
+</div>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+         <div class="wrap">
+                <div class="masthead">
+                  <div class="container">
+                    <h3 class="masthead-title">
+                      <a href="/" title="Home">Connor S. Kenaston</a>
+                      <small></small>
+                    </h3>
+                  </div>
+                </div>                
+                
+                <div class="container content">
+                    <div class="page">
+              <h1 class="page-title">Teaching</h1>
+              <p>Teaching is important. Yay! </p>
+              <h2> Pedagogy </h2>
+              <h2> Courses </h2>
+              
+                
+                <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+                <script>
+                  (function(document) {
+                    var toggle = document.querySelector('.sidebar-toggle');
+                    var sidebar = document.querySelector('#sidebar');
+                    var checkbox = document.querySelector('#sidebar-checkbox');
+            
+                    document.addEventListener('click', function(e) {
+                      var target = e.target;
+            
+                      if(!checkbox.checked ||
+                         sidebar.contains(target) ||
+                         (target === checkbox || target === toggle)) return;
+            
+                      checkbox.checked = false;
+                    }, false);
+                  })(document);
+                </script>
+  </body>
+</html>
+
+
