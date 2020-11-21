@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Piazzolla&display=swap">
   <link rel="stylesheet" href="c-stylehyde.css">
-  
+
   <meta name="description" content="A description of Connor Kenaston's pedagogy, teaching experience, and teaching interests">
 
   <!-- Icons -->
@@ -30,18 +30,18 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="indexhyde.html">
+        <a href="index.html">
           Connor S. Kenaston
         </a>
       </h1>
       <p class="lead">Historian of religion, politics, and culture in the United States</p>
     </div>
     <nav class="sidebar-nav">
-        <a class="sidebar-nav-item" href="indexhyde.html">Home</a>   
-              <a class="sidebar-nav-item" href="abouthyde.html">About</a>
-              <a class="sidebar-nav-item" href="projectshyde.html">Projects</a>
-              <a class="sidebar-nav-item" href="teachinghyde.html">Teaching</a>
-              <a class="sidebar-nav-item" href="cvhyde.html">CV</a>
+        <a class="sidebar-nav-item" href="index.html">Home</a>
+              <a class="sidebar-nav-item" href="about.html">About</a>
+              <a class="sidebar-nav-item" href="projects.html">Projects</a>
+              <a class="sidebar-nav-item" href="teaching.html">Teaching</a>
+              <a class="sidebar-nav-item" href="cv.html">CV</a>
       </nav>
       <div class="sidebar-item">
         Work by Connor Kenaston is <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">CC-BY</a>.
@@ -54,7 +54,7 @@
 <h2>Teaching Philosophy</h2>
 <p>Coming Soon!</p>
 <h2>Teaching Experience</h2>
-<p>For my previous teaching experience, see my <a href="cvhyde.html#cv-teaching">curriculum vitae</a>.</p>
+<p>For my previous teaching experience, see my <a href="cv.html#cv-teaching">curriculum vitae</a>.</p>
 <h2>Courses I am Prepared to Teach</h2>
 <h3>Undergraduate</h3>
 <p>American History since 1865</p>
@@ -74,19 +74,17 @@
                     var toggle = document.querySelector('.sidebar-toggle');
                     var sidebar = document.querySelector('#sidebar');
                     var checkbox = document.querySelector('#sidebar-checkbox');
-            
+
                     document.addEventListener('click', function(e) {
                       var target = e.target;
-            
+
                       if(!checkbox.checked ||
                          sidebar.contains(target) ||
                          (target === checkbox || target === toggle)) return;
-            
+
                       checkbox.checked = false;
                     }, false);
                   })(document);
                 </script>
   </body>
 </html>
-
-
